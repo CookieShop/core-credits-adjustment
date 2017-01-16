@@ -53,8 +53,8 @@ class Import
     public function getConfig()
     {
         $config =  $this->services->get('config');
-        return isset($config['adteam-core-common'])
-                                             ?$config['adteam-core-common']:[];
+        return isset($config['adteam-core-credits-adjustment'])
+                                  ?$config['adteam-core-credits-adjustment']:[];
     }
     
     /**
